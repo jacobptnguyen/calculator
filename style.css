@@ -1,0 +1,60 @@
+/* Made by: Jacob Nguyen
+Email: jacobptnguyen@gmail.com */
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    margin-top: 100px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: center;
+    background-color: black;
+    max-width: 150px;
+}
+
+.screen{
+    color: white;
+    background-color: grey;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-height: 150px;
+    max-width: 150px;
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonBody{
+    margin-bottom: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.button:active{
+    background-color: gray;
+}
+
+.bigButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background-color: white;
+}
