@@ -4,7 +4,7 @@ Email: jacobptnguyen@gmail.com */
 body{
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: #F8E2B1;
     margin-top: 100px;
 }
 
@@ -13,13 +13,14 @@ body{
     flex-direction: column;
     flex: 1 1 auto;
     justify-content: center;
-    background-color: black;
+    background-color: #ea125e;
     max-width: 150px;
+    border-radius: 10px;
 }
 
 .screen{
-    color: white;
-    background-color: grey;
+    color: black;
+    background-color: #F8E2B1;
     margin: 10px;
     padding-left: 5px;
     padding-right: 5px;
